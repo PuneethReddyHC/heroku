@@ -16,10 +16,10 @@ export class EditorComponent implements OnInit {
   isSubmitting = false;
 
   constructor(
-    private articlesService: ArticlesService,
-    private route: ActivatedRoute,
-    private router: Router,
-    private fb: FormBuilder
+    public articlesService: ArticlesService,
+    public route: ActivatedRoute,
+    public router: Router,
+    public fb: FormBuilder
   ) {
     // use the FormBuilder to create a form group
     this.articleForm = this.fb.group({

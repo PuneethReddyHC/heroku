@@ -9,6 +9,9 @@ import { concatMap ,  tap } from 'rxjs/operators';
   templateUrl: './profile.component.html'
 })
 export class ProfileComponent implements OnInit {
+  focus;
+  focus1;
+  focus2;
   constructor(
     public route: ActivatedRoute,
     public userService: UserService

@@ -13,7 +13,9 @@ export class SettingsComponent implements OnInit {
   settingsForm: FormGroup;
   errors: Object = {};
   isSubmitting = false;
-
+  focus;
+  focus1;
+  focus2;
   constructor(
     public router: Router,
     public userService: UserService,

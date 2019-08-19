@@ -14,12 +14,14 @@ export class AuthComponent implements OnInit {
   errors: Errors = {errors: {}};
   isSubmitting = false;
   authForm: FormGroup;
-
+  focus;
+  focus1;
+  focus2;
   constructor(
-    public route: ActivatedRoute,
-    public router: Router,
-    public userService: UserService,
-    public fb: FormBuilder
+    private route: ActivatedRoute,
+    private router: Router,
+    private userService: UserService,
+    private fb: FormBuilder
   ) {
     // use FormBuilder to create a form group
     this.authForm = this.fb.group({
