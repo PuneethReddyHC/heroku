@@ -14,7 +14,9 @@ export class EditorComponent implements OnInit {
   tagField = new FormControl();
   errors: Object = {};
   isSubmitting = false;
-
+  focus;
+  focus1;
+  focus2;
   constructor(
     public articlesService: ArticlesService,
     public route: ActivatedRoute,
