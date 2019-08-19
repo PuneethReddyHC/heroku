@@ -10,9 +10,9 @@ import { ArticleListConfig, TagsService, UserService } from '../core';
 })
 export class HomeComponent implements OnInit {
   constructor(
-    private router: Router,
-    private tagsService: TagsService,
-    private userService: UserService
+    public router: Router,
+    public tagsService: TagsService,
+    public userService: UserService
   ) {}
 
   isAuthenticated: boolean;

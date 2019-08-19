@@ -16,10 +16,10 @@ export class AuthComponent implements OnInit {
   authForm: FormGroup;
 
   constructor(
-    private route: ActivatedRoute,
-    private router: Router,
-    private userService: UserService,
-    private fb: FormBuilder
+    public route: ActivatedRoute,
+    public router: Router,
+    public userService: UserService,
+    public fb: FormBuilder
   ) {
     // use FormBuilder to create a form group
     this.authForm = this.fb.group({

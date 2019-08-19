@@ -15,9 +15,9 @@ export class SettingsComponent implements OnInit {
   isSubmitting = false;
 
   constructor(
-    private router: Router,
-    private userService: UserService,
-    private fb: FormBuilder
+    public router: Router,
+    public userService: UserService,
+    public fb: FormBuilder
   ) {
     // create form group using the form builder
     this.settingsForm = this.fb.group({
