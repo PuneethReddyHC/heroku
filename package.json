@@ -26,7 +26,7 @@
     "body-parser": "^1.19.0",
     "core-js": "^2.5.0",
     "cors": "2.7.1",
-    "typescript": "3.2.4",
+    "typescript": "3.5.3",
     "ejs": "2.4.1",
     "errorhandler": "1.4.3",
     "express": "^4.17.1",
@@ -67,6 +67,6 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.5.3"
+    "typescript": "3.5.3"
   }
 }
