@@ -31,7 +31,7 @@
     "errorhandler": "1.4.3",
     "express": "^4.17.1",
     "express-session": "^1.16.2",
-    "marked": "^0.7.0",
+    "marked": "^4.0.10",
     "method-override": "2.3.5",
     "methods": "1.1.2",
     "ng2-nouislider": "1.7.13",
